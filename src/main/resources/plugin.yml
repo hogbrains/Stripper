@@ -1,0 +1,13 @@
+name: Stripper
+version: '${project.version}'
+main: me.abaris.stripper.Stripper
+api-version: 1.19
+permissions:
+  stripper.strip:
+    default: true
+  stripper.*:
+    children:
+      - stripper.strip
+commands:
+  strip:
+    permission: stripper.strip
