@@ -36,6 +36,9 @@ public class Strip implements CommandExecutor {
         mats.put(Material.CRIMSON_HYPHAE, Material.STRIPPED_CRIMSON_HYPHAE);
         mats.put(Material.WARPED_STEM, Material.STRIPPED_WARPED_STEM);
         mats.put(Material.WARPED_HYPHAE, Material.STRIPPED_WARPED_HYPHAE);
+        mats.put(Material.BAMBOO_BLOCK, Material.STRIPPED_BAMBOO_BLOCK);
+        mats.put(Material.CHERRY_LOG, Material.STRIPPED_CHERRY_LOG);
+        mats.put(Material.CHERRY_WOOD, Material.STRIPPED_CHERRY_WOOD);
 
         boolean stripped = false;
 

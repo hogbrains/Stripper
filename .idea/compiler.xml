@@ -9,8 +9,5 @@
         <module name="Stripper" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Stripper" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
